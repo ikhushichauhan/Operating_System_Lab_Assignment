@@ -7,7 +7,7 @@ def bankers_algorithm():
     # Input Matrices [cite: 379, 380, 381]
     processes = ["P0", "P1", "P2"]
     allocation = [[1, 0, 0], [2, 1, 1], [2, 2, 2]]
-    maximum = [[4, 3, 3], [3, 2, 2], [9, 3, 2]]
+    maximum = [[4, 3, 3], [3, 2, 2], [5, 3, 2]] # P2 needs 5, which is possible
     available = [3, 3, 2]
 
     print("--- TASK 1: SYSTEM INPUT & DATA REPRESENTATION ---")
